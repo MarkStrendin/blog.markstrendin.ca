@@ -1,0 +1,7 @@
+theme: jekyll-theme-minimal
+title: Mark's Blog
+author: Mark Strendin
+url: https://blog.markstrendin.ca
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
