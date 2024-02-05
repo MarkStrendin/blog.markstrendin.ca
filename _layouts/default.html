@@ -10,7 +10,11 @@
     <body>
         <div class="wrapper">
             <header>
-                <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1></a>
+                <img src="/assets/img/logo.png">
+                <a href="{{ site.github.url }}">
+                    <img src="/assets/img/logo.png" class="mainlogo">
+                    <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                </a>
                 <p>{{ site.description | default: site.github.project_tagline }}</p>
             </header>
             <section>
@@ -18,8 +22,9 @@
             </section>
             <footer>
                 <p class="view">
-                    <a href="/">Index</a> &nbsp;|&nbsp;
+                    <a href="/">Blog index</a> &nbsp;|&nbsp;
                     <a href="/about.html">About me</a>&nbsp;|&nbsp;
+                    <a href="https://markstrendin.ca">Main site</a> &nbsp;|&nbsp;
                     <a href="/feed.xml">Feed</a>
                 </p>
             </footer>
